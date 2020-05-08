@@ -22,14 +22,21 @@
   <body>
     <header>
       <h1>
-        <img src="img/logo1.png" alt="Grand Hotel" class="logo" />
+        <img src="img/logo2,png.webp" alt="Hotel Flamingo" class="logo" />
       </h1>
 
       <!-- barra de navegação do site-->
       <nav>
         <div class="nav-wrapper red darken-4" style="text-align: left;">
-          <a href="index.html" class="brand-logo">Grand Hotel</a>
+          <a href="index.html" class="brand-logo">Hotel Flamingo</a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="hotel.html">Hotel</a></li>
+            <li><a href="suites.html">Suites</a></li>
+            <li><a href="gastronomia.html">Gastronomia</a></li>
+            <li><a href="reservas.html">Reservas</a></li>
+            <li><a href="localizacao.html">Localização</a></li>
+          </ul>
+          <ul class="sidenav" id="mobile-demo">
             <li><a href="hotel.html">Hotel</a></li>
             <li><a href="suites.html">Suites</a></li>
             <li><a href="gastronomia.html">Gastronomia</a></li>
@@ -41,14 +48,95 @@
       <!--fim da barra de navegação-->
 
       <!--inicio do painel-->
-      <img src="img/painel2.jpg" alt="entrada do hotel" class="painel" />
+      <img src="img/painel1.jpg" alt="entrada do hotel" class="painel" />
     </header>
 
-    <main></main>
+    <main>
+      <h2>Sobre o Hotel</h2>
+      <hr />
+      <p>
+        <span>
+          <span
+            >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
+            excepturi expedita quaerat, aspernatur itaque sed molestiae
+            architecto non culpa corrupti dicta autem commodi consequatur porro
+            dignissimos, repellendus odio debitis veritatis.</span
+          >
+          <span
+            >Beatae, facere suscipit unde assumenda pariatur tempora quae. Eius
+            consectetur, ipsum molestias harum, magni officiis praesentium
+            obcaecati nam pariatur animi doloribus distinctio quisquam! Repellat
+            voluptas ea maiores laboriosam totam magnam.</span
+          >
+          <span
+            >Ratione aliquam earum voluptatem id nostrum nesciunt quibusdam
+            nobis at repellendus, odio amet quos ad perspiciatis labore quaerat
+            cum libero quasi itaque ducimus praesentium nihil quisquam
+            doloremque minima. Excepturi, odio!</span
+          >
+        </span>
+        <span>
+          <span
+            >Debitis error corrupti obcaecati facilis itaque tenetur eius
+            delectus id placeat suscipit officiis quod excepturi dignissimos
+            iusto vero, dolores et beatae labore aliquid. Voluptas eveniet illo
+            nemo eligendi quo labore.</span
+          >
+          <span
+            >Accusamus assumenda ratione, vitae sed facere sit, velit officiis
+            perspiciatis unde distinctio vel cumque quisquam totam inventore
+            asperiores nemo laboriosam ab maxime officia dolorem fuga nulla
+            molestias. Velit, veritatis possimus.</span
+          >
+          <span
+            >Consequuntur distinctio, earum voluptatum nulla quis harum neque
+            laudantium nam enim consectetur eius culpa alias nobis aspernatur?
+            At omnis perferendis officia illo provident qui nesciunt beatae
+            aliquam id, doloribus consequatur.</span
+          >
+        </span>
+        <span>
+          <span
+            >Maiores explicabo quisquam itaque et vero expedita eum ipsam!
+            Cupiditate nemo ad, ullam odit aliquid maxime architecto, unde rem
+            sunt iste tempore a! Dicta aspernatur reprehenderit id neque ullam
+            architecto.</span
+          >
+          <span
+            >Accusantium nostrum quibusdam doloremque deserunt quam aperiam
+            alias deleniti voluptatem! A iusto doloremque, consectetur esse quos
+            ratione aut eveniet totam itaque officiis corporis aperiam error
+            asperiores quam autem laboriosam dolorem.</span
+          >
+          <span
+            >Cum eaque minima animi tenetur? Mollitia cupiditate impedit
+            assumenda rerum iusto consequatur, similique nostrum incidunt alias
+            nam illum consequuntur obcaecati ipsam repellat harum culpa
+            laudantium ipsa optio explicabo et pariatur.</span
+          >
+        </span>
+      </p>
+      <div class="row">
+        <div class="input-field col s6">
+        <img src="img/lazer3.jpg" alt="">
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+        <img src="img/lazer5.jpg" alt="" style="width: 660px; height: 450px;">
+      </div>
+    </main>
 
     <footer></footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".sidenav").sidenav();
+      });
+    </script>
   </body>
 </html>

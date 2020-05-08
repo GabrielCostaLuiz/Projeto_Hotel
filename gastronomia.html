@@ -22,14 +22,24 @@
   <body>
     <header>
       <h1>
-        <img src="img/logo1.png" alt="Grand Hotel" class="logo" />
+        <img src="img/logo2,png.webp" alt="Hotel Flamingo" class="logo" />
       </h1>
 
       <!-- barra de navegação do site-->
       <nav>
         <div class="nav-wrapper red darken-4" style="text-align: left;">
-          <a href="index.html" class="brand-logo">Grand Hotel</a>
+          <a href="index.html" class="brand-logo">Hotel Flamingo</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
           <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="hotel.html">Hotel</a></li>
+            <li><a href="suites.html">Suites</a></li>
+            <li><a href="gastronomia.html">Gastronomia</a></li>
+            <li><a href="reservas.html">Reservas</a></li>
+            <li><a href="localizacao.html">Localização</a></li>
+          </ul>
+          <ul class="sidenav" id="mobile-demo">
             <li><a href="hotel.html">Hotel</a></li>
             <li><a href="suites.html">Suites</a></li>
             <li><a href="gastronomia.html">Gastronomia</a></li>
@@ -41,14 +51,214 @@
       <!--fim da barra de navegação-->
 
       <!--inicio do painel-->
-      <img src="img/painel2.jpg" alt="entrada do hotel" class="painel" />
+      <img src="img/painel1.jpg" alt="entrada do hotel" class="painel" />
     </header>
 
-    <main></main>
+    <main>
+      <h2>Gastronomia</h2>
+      <hr />
+      <p>
+        <span
+          >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nulla
+          reiciendis hic libero quia. Consectetur vitae voluptates iste eaque
+          est nihil tempore quibusdam dicta, numquam voluptatibus, aut sequi
+          repellat veritatis.</span
+        >
+        <span
+          >Repellendus tempora hic animi saepe doloribus in rerum accusamus
+          nobis quaerat ut ipsam illum optio corrupti sint porro vero, ipsa
+          placeat eveniet odio quisquam tempore. Inventore totam ex ullam
+          incidunt!</span
+        >
+        <span
+          >Minima soluta praesentium nam iste enim beatae cumque sed earum.
+          Voluptates quaerat eius, odit consectetur ducimus nulla dicta ipsam
+          dolores nostrum et, ipsa eveniet quod rerum maxime error ad
+          fugiat.</span
+        >
+      </p>
+
+      <hr />
+
+      <!-- Inicio dos cards -->
+      <div class="row">
+        <!-- Inicio da linha -->
+        <div class="col s12 m6">
+          <h2 class="header">El Bife</h2>
+          <div class="card horizontal">
+            <div class="card-image">
+              <img
+                src="img/gastronomia1.jpg"
+                class="modal-trigger"
+                href="#modal1"
+              />
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
+                  atque reprehenderit eligendi quia possimus quasi magni
+                  asperiores, quae explicabo magnam recusandae maxime tempore
+                  provident, assumenda non temporibus consectetur. Ex, tempore.
+                </p>
+              </div>
+              <div class="card-action"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6">
+          <h2 class="header">Gostosuras</h2>
+          <div class="card horizontal">
+            <div class="card-image">
+              <img
+                src="img/gastronomia2.jpg"
+                class="modal-trigger"
+                href="#modal2"
+              />
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
+                  atque reprehenderit eligendi quia possimus quasi magni
+                  asperiores, quae explicabo magnam recusandae maxime tempore
+                  provident, assumenda non temporibus consectetur. Ex, tempore.
+                </p>
+              </div>
+              <div class="card-action"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6">
+          <h2 class="header">Almocin</h2>
+          <div class="card horizontal">
+            <div class="card-image">
+              <img
+                src="img/gastronomia3.jpg"
+                class="modal-trigger"
+                href="#modal3"
+                style="width: 90%; height: 220px;"
+              />
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
+                  atque reprehenderit eligendi quia possimus quasi magni
+                  asperiores, quae explicabo magnam recusandae maxime tempore
+                  provident, assumenda non temporibus consectetur. Ex, tempore.
+                </p>
+              </div>
+              <div class="card-action"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6">
+          <h2 class="header">El Praia</h2>
+          <div class="card horizontal">
+            <div class="card-image">
+              <img
+                src="img/gastronomia4.jpg"
+                class="modal-trigger"
+                href="#modal4"
+              />
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
+                  atque reprehenderit eligendi quia possimus quasi magni
+                  asperiores, quae explicabo magnam recusandae maxime tempore
+                  provident, assumenda non temporibus consectetur. Ex, tempore.
+                </p>
+              </div>
+              <div class="card-action"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fim da linha -->
+    </main>
+
+    <!-- ######################### Area dos Modais ##############-->
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>El Bife</h4>
+        <img src="img/gastronomia1.jpg" />
+      </div>
+      <div class="modal-footer">
+        <!-- <a
+          href="reservas.html"
+          class="modal-close waves-effect waves-green btn-flat"
+          >Reservar</a
+        > -->
+      </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <h4>Gostosuras</h4>
+        <img src="img/gastronomia2.jpg" />
+      </div>
+      <div class="modal-footer">
+        <!-- <a
+          href="reservas.html"
+          class="modal-close waves-effect waves-green btn-flat"
+          >Reservar</a
+        > -->
+      </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <h4>Almocin</h4>
+        <img src="img/gastronomia3.jpg" />
+      </div>
+      <div class="modal-footer">
+        <!-- <a
+          href="reservas.html"
+          class="modal-close waves-effect waves-green btn-flat"
+          >Reservar</a
+        > -->
+      </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="modal4" class="modal">
+      <div class="modal-content">
+        <h4>La Praia</h4>
+        <img src="img/gastronomia4.jpg" />
+      </div>
+      <div class="modal-footer">
+        <!-- <a
+          href="reservas.html"
+          class="modal-close waves-effect waves-green btn-flat"
+          >Reservar</a
+        > -->
+      </div>
+    </div>
 
     <footer></footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".modal").modal();
+      });
+
+      $(document).ready(function () {
+        $(".sidenav").sidenav();
+      });
+    </script>
   </body>
 </html>

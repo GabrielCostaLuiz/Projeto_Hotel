@@ -9,7 +9,7 @@ header .painel {
   width: 100%;
 }
 
-#modal1 img, #modal2 img{
+#modal1 img, #modal2 img, #modal3 img, #modal4 img, #modal5 img, #modal6 img, #modal7 img, #modal8 img, #modal9 img{
 width: 100%;
 height: 400px;
 }
@@ -17,4 +17,11 @@ height: 400px;
 .card-image img{
 cursor: pointer;
 }
+
+#Masc, #Femi{
+  margin-left: 50px !important;
+  padding-top: 10px;
+  position: relative;
+}
+
 
